@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background: linear-gradient(
+        to  left, rgba(62, 149, 230, 0.57), rgba(32, 191, 231, 0.546)
+      );
+    /* background-color: rgb(68, 68, 234); */
+}
+
+#container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+header h1{
+    text-align: center;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background: linear-gradient(
+        to right,rgb(87, 3, 255), rgba(50, 209, 39, 0.303), rgb(3, 7, 255)
+      );
+}
+body ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: linear-gradient(
+        to top right, rgba(211, 209, 209, 0.303), rgb(189, 40, 226)
+      );
+      padding: 1rem;
+}
+body ul a{
+    text-decoration: none;
+    color: white;
+    background-color: linear-gradient(
+        to top right, rgba(17, 67, 233, 0.314), rgba(9, 35, 199, 0.348)
+      );
+      font-size:larger;
+      font-weight: 600;
+}
+body ul a:hover{
+  color: blue;
+}
+#home-menu a{
+  color: blue;
+}
+ #left{
+    margin: 2rem;
+    height: 100%;
+    width: 47%;
+    /* border: 1px solid black;
+    background-color: red; */
+}
+/* #text-area{
+    background-color: transparent;
+    border: none;
+}
+#text-area:hover {
+    border-color: transparent;
+  }
+
+  /* Remove border when focused */
+/* #text-area:focus {
+    outline: none; 
+    border-color: transparent;
+  } */ 
+  /* .message{
+     
+  } */
+ #container #left .message {
+    /* color: var(--light); */
+    color: white;
+    background: linear-gradient(
+      to bottom,
+      rgba(28, 34, 221, 0.594),
+      rgba(40, 14, 240, 0.165)
+    );
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 2px rgba(91, 16, 243, 0.63);
+    border-radius: 10px;
+  }
+
+  .card2 {
+    cursor: pointer;
+    display: inline-block;
+    /* width: 700px; */
+    /* height: 1rem; */
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    margin-top: 5px;
+    /* color: rgb(19, 19, 246); */
+  }
+
+  /* Style the heading inside the dropdown */
+  .card2 .heading-and-arrow {
+    
+  }
+
+  /* .dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 14px 0px 14px; 
+    border-color: #807f7f transparent transparent transparent;
+    margin-left: 5px;
+  } */
+
+  /* .dropdown.open .dropdown-arrow {
+    border-width: 0 4px 5px 4px; 
+    border-color: transparent transparent #555 transparent;
+  } */
+  /* .dropdown-arrow.upwards .dropdown-content {
+    bottom: 100%;
+} */
+  .heading-and-arrow{
+    display: flex;
+    font-weight: bold;
+    /* border: #dab304; */
+    background: linear-gradient(
+      to bottom,
+      rgba(28, 34, 221, 0.594),
+      rgba(40, 14, 240, 0.165)
+    );
+    padding: 2rem;
+    margin-left: 1rem;
+    /* width: 30rem; */
+    width: 700px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(91, 16, 243, 0.63);
+    border-radius: 10px;
+    font-size:xx-large;
+    font-weight:bolder;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  #greetings {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(245, 230, 230);
+  }
+  #displayMotivation {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  #imageContainer {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+.animated-image {
+    max-width: 100%;
+    max-height: 100%;
+}
